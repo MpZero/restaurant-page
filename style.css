@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit; 
+}
+
+body {
+  margin: 0;
+}
+
+
+#content {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 2fr 0.25fr;
+
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+#nav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 25px;
+  border-right: 1px solid black;
+  min-width: 500px;
+  max-width: 100px;
+}
+
+#logo > img {
+  cursor: pointer;
+
+}
+
+#logo > p {
+  margin-left: 20px;
+  font-size: xx-large;
+  cursor: pointer;
+
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  flex: 1;
+  padding: 103px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+
+
+}
+
+li:hover {
+  border-bottom: 3px black solid;
+  cursor: pointer;
+}
+
+
+#main {
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 470px;
+}
+
+
+
+#main-wrapper-left {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: 1fr;
+  min-width: 400px;
+  max-width: 500px;
+  row-gap: 10px;
+}
+
+#background-circle {
+  background-color: burlywood;
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+   top: 320px;
+  left: 200px; 
+
+}
+
+.coffee-pack-png {
+  height: 250px;
+  position: absolute;
+  left: 280px; 
+  top: 320px;
+}
+
+.coffee-mug-png {
+  height: 180px;
+  position: absolute;
+  left: 100px;
+  top: 370px;
+  grid-row: 1/2;
+  
+}
+
+#main-wrapper-right {
+  text-align:center;
+  margin: 20px;
+  padding-right: 40px;
+}
+
+.text-quote {
+  margin: 0px;
+  margin-top: 35px;
+  margin-left: 80px;
+  padding: 40px;
+  grid-row: 2/3;
+  z-index: 1;
+  font-style: italic;
+}
+
+.btn-learn-more {
+  border: none;
+  padding: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#footer-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer-content > p > a:link {
+  color: black;
+}
+
+a:visited {
+  color:cadetblue;
+}
