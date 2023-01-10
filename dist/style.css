@@ -22,7 +22,7 @@ body {
 
 
 
-
+/* HEADER */
 #nav {
   height: 100%;
   display: flex;
@@ -46,8 +46,8 @@ body {
 
 }
 
-#logo > p {
-  margin-left: 20px;
+#logo > h1 {
+  padding: 30px;
   font-size: xx-large;
   cursor: pointer;
 
@@ -75,8 +75,9 @@ li:hover {
   border-bottom: 3px black solid;
   cursor: pointer;
 }
+/* HEADER */
 
-
+/* HOME PAGE */
 #main {
   background-color: black;
   color: white;
@@ -157,6 +158,31 @@ li:hover {
   color: black;
 }
 
+#footer-content > p  {
+  display: flex;
+justify-content: space-evenly;
+align-items: center;
+min-width: 250px;
+}
+
+#footer-content > p:nth-child(2) {
+min-width: 300px;
+
+}
+
 a:visited {
   color:cadetblue;
 }
+/* HOME PAGE */
+
+/* MENU PAGE */
+  
+
+/* MENU PAGE */
+
+
+
+/* CONTACT PAGE */
+
+
+/* CONTACT PAGE */
