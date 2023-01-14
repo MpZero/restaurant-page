@@ -13,11 +13,11 @@ body {
 
 #content {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 1fr 2fr 0.25fr;
+  grid-template-rows: 0.1fr 2fr 0.1fr;
 
   font-family: 'Roboto', sans-serif;
   font-family: 'Work Sans', sans-serif;
+  line-height: 1.6;
 }
 
 
@@ -67,12 +67,12 @@ li {
   text-align: center;
   font-size: large;
   font-weight: bold;
-
+  border-bottom: 8px transparent inset;
 
 }
 
 li:hover {
-  border-bottom: 3px black solid;
+  border-bottom: 8px black inset;
   cursor: pointer;
 }
 /* HEADER */
@@ -85,8 +85,6 @@ li:hover {
   grid-template-columns: 1fr 1fr;
   min-height: 470px;
 }
-
-
 
 #main-wrapper-left {
   display: grid;
@@ -148,7 +146,63 @@ li:hover {
   cursor: pointer;
   font-weight: bold;
 }
+/* HOME */
 
+
+/* MENU PAGE */
+  #menu-content {
+    min-width: 100vw;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, auto);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: end;
+    justify-self: end;
+    row-gap: 2rem;
+  }
+  
+  #menu-content > div {
+    padding: 40px;
+    justify-self: center;
+
+  }
+  #menu-content > div > img {
+    max-height: 300px;
+  }
+
+  #roasted-coffee,
+  #chocolate {
+    padding-right: 70px;
+  }
+/* MENU PAGE */
+
+
+/* CONTACT PAGE */
+#contact-content {
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 0px 2rem;
+  
+}
+
+#contact-content > div {
+    padding: 40px;
+    max-width: 700px;
+}
+/* CONTACT PAGE */
+
+
+/* FOOTER */
 #footer-content{
   display: flex;
   justify-content: space-around;
@@ -160,7 +214,7 @@ li:hover {
 
 #footer-content > p  {
   display: flex;
-justify-content: space-evenly;
+justify-content: space-around;
 align-items: center;
 min-width: 250px;
 }
@@ -170,19 +224,11 @@ min-width: 300px;
 
 }
 
+#footer-content > .first-p {
+  min-width: 360px;
+}
+
 a:visited {
   color:cadetblue;
 }
-/* HOME PAGE */
-
-/* MENU PAGE */
-  
-
-/* MENU PAGE */
-
-
-
-/* CONTACT PAGE */
-
-
-/* CONTACT PAGE */
+/* FOOTER */
