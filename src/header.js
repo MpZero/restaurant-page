@@ -14,7 +14,7 @@ export default function header() {
   nav.appendChild(logo)
 
   const img = document.createElement("img")
-  img.src = "../resources/beans.png"
+  img.src = "../src/resources/beans.png"
   const h1 = document.createElement("h1")
   h1.innerText = "KO-HI"
 

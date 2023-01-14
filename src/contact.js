@@ -13,10 +13,10 @@ const content = document.querySelector("#content")
   let div4 = document.createElement("div")
 
   let img1 = document.createElement("img")
-  img1.src = "../resources/contact.png"
+  img1.src = "../src/resources/contact.png"
 
   let img2 = document.createElement("img")
-  img2.src = "../resources/group.png"
+  img2.src = "../src/resources/group.png"
 
   contactContent.append(div1, div2, div3, div4)
 

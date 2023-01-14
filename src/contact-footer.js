@@ -28,8 +28,7 @@ export default function footer() {
     p2.innerText = "from  "
     p1.innerText = "Illustration by "
     p1.setAttribute("class", "first-p")
-    // Illustration by Rosina Gavrilash from Ouch!
-    // Illustration by <a href="https://icons8.com/illustrations/author/HxMFjfKZdNq2">Rosina Gavrilash</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
+ 
     footerContent.append(p1)
     p1.append(a1, p2, a2)
 

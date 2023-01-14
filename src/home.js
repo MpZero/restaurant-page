@@ -15,11 +15,11 @@ export default function home() {
   backgroundCircle.setAttribute("id", "background-circle")
 
   const coffeePackImg = document.createElement("img")
-  coffeePackImg.src = "../resources/coffee-pack.png"
+  coffeePackImg.src = "../src/resources/coffee-pack.png"
   coffeePackImg.setAttribute("class", "coffee-pack-png")
 
   const coffeeMugImg = document.createElement("img")
-  coffeeMugImg.src = "../resources/coffee-mug.png"
+  coffeeMugImg.src = "../src/resources/coffee-mug.png"
   coffeeMugImg.setAttribute("class", "coffee-mug-png")
 
   const textQuote = document.createElement("p")

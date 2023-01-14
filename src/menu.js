@@ -29,12 +29,12 @@ export default function menu() {
 
   menuContent.append(div1, div2, div3, div4, div5, div6, div7, div8, div9, div10, div11, div12)
 
-  img1.src = "../resources/coffee.png"
-  img2.src = "../resources/pancake.png"
-  img3.src = "../resources/donut.png"
-  img4.src = "../resources/cake.png"
-  img5.src = "../resources/chocolate.png"
-  img6.src = "../resources/roasted-coffee.png"
+  img1.src = "../src/resources/coffee.png"
+  img2.src = "../src/resources/pancake.png"
+  img3.src = "../src/resources/donut.png"
+  img4.src = "../src/resources/cake.png"
+  img5.src = "../src/resources/chocolate.png"
+  img6.src = "../src/resources/roasted-coffee.png"
 
   div1.appendChild(img1)
   div3.appendChild(img2)
