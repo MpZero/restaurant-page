@@ -1,3 +1,6 @@
+import group from "./resources/group.png"
+import contactImg from "./resources/contact.png"
+
 export default function contact() {
 const content = document.querySelector("#content")
 
@@ -13,10 +16,10 @@ const content = document.querySelector("#content")
   let div4 = document.createElement("div")
 
   let img1 = document.createElement("img")
-  img1.src = "../src/resources/contact.png"
+  img1.src = contactImg
 
   let img2 = document.createElement("img")
-  img2.src = "../src/resources/group.png"
+  img2.src = group
 
   contactContent.append(div1, div2, div3, div4)
 

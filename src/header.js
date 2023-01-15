@@ -1,3 +1,5 @@
+import beanLogo from "./resources/beans.png"
+
 export default function header() {
   const content = document.querySelector("#content")
 
@@ -14,7 +16,7 @@ export default function header() {
   nav.appendChild(logo)
 
   const img = document.createElement("img")
-  img.src = "../src/resources/beans.png"
+  img.src = beanLogo
   const h1 = document.createElement("h1")
   h1.innerText = "KO-HI"
 

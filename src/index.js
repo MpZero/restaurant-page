@@ -4,6 +4,7 @@ import menu from "./menu"
 import contact from "./contact"
 import footer from "./footer"
 import contactFooter from "./contact-footer.js"
+import "./style.css"
 
 header()
 home()
